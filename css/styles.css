@@ -27,10 +27,11 @@ ul a {
 /* Header*/
 .header {
     border-bottom: 1px solid #e7e9fc;
+    padding: 24px 0;
 }
 .container-header {
     display: flex;
-    padding: 24px 0;
+    
 }
 .navigation {
     display: flex;
