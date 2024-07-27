@@ -30,6 +30,7 @@ ul a {
 }
 .container-header {
     display: flex;
+    padding: 24px 0;
 }
 .navigation {
     display: flex;
