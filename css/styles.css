@@ -255,6 +255,7 @@ ul a {
 }
 .port-card {
     border: 1px solid #E7E9FC;
+    border-top: none;
     padding: 32px 16px;
 }
 .port-title {
@@ -290,6 +291,7 @@ ul a {
 /* Footer*/
 .foot {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .logo-footer {
     font-family: "Raleway", sans-serif;
@@ -301,6 +303,9 @@ ul a {
     text-decoration: none;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    display: inline-block;
+    margin-bottom: 16px;
     }
 .logo-span-foot {
     color: #f4f4fd;
@@ -309,4 +314,5 @@ ul a {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
