@@ -88,15 +88,6 @@ ul a {
 }
 
 
-
-
-
-
-
-
-
-
-
 /* First main section*/
 .first-s {
     background-color: #2E2F42;
@@ -135,17 +126,12 @@ ul a {
 
     margin-left: 481px;
     margin-right: 481px;
-    
-    
+
 }
 .button:hover,
 .button:focus {
     background-color:#404BBF;
 }
-
-
-
-
 
 /* Features section*/
 .feat-section {
@@ -243,8 +229,34 @@ ul a {
     text-align: center;
 }
 
-/* Portfolio Section*/
 
+
+
+
+
+
+
+
+
+
+/* Portfolio Section*/
+.port-s {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.port-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.port-item {
+    width: clac((100% - 48px) / 3);
+}
+.port-card {
+    border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
 .port-title {
     font-weight: 700;
         font-size: 36px;
@@ -253,6 +265,8 @@ ul a {
         line-height: 1.11;
         text-align: center;
         text-transform: capitalize;
+
+        margin-bottom: 72px;
 }
 .port-sub {
     font-weight: 500;
@@ -266,6 +280,11 @@ ul a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
+
+
 
 
 /* Footer*/
