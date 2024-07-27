@@ -177,7 +177,7 @@ ul a {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .feat-sub {
     font-weight: 500;
@@ -203,7 +203,7 @@ ul a {
 .team-item {
     background-color: #FFFFFF;
 
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .card {
