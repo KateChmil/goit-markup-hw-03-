@@ -109,8 +109,9 @@ ul a {
     text-align: center;
 
     max-width: 496px;
-    margin-left: 331px;
-    margin-right: 331px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:48px;
     
 }
 
@@ -171,7 +172,7 @@ ul a {
     gap: 24px;
 }
 .feat-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .feat-sub {
     font-weight: 500;
